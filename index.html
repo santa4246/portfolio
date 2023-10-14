@@ -26,19 +26,19 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <div>
-      <img src="images/favicon.ico" alt="logo">
-      <h1><a href="#">MH Kang</a></h1>
+  <header class="header">
+    <div class="header__logo">
+      <img class="header__logo__img" src="images/favicon.ico" alt="logo">
+      <h1 class="header__logo__title"><a href="#">MinHyeok</a></h1>
     </div>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#work">My work</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="header__menu">
+        <li><a class="header__menu__item active" href="#home">Home</a></li>
+        <li><a class="header__menu__item" href="#about">About</a></li>
+        <li><a class="header__menu__item" href="#skills">Skills</a></li>
+        <li><a class="header__menu__item" href="#work">My work</a></li>
+        <li><a class="header__menu__item" href="#testimonial">Testimonials</a></li>
+        <li><a class="header__menu__item" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -47,16 +47,16 @@
   <main>
     <!-- Home -->
     <section id="home">
-      <img src="images/profile.png" alt="MH's profile">
-      <h2>안녕하세요. 저는 풀스텍 개발자, MH입니다.</h2>
-      <p>저는 웹젠의 개발자입니다.</p>
-      <a href="#contact">Contact Me</a>
+      <img class="home__avatar" src="images/profile.png" alt="MH's profile">
+      <h2 class="home__title">고요히 빛나는,<br />저는 <strong class="home__title--strong">백엔드 개발자</strong> 강민혁입니다.</h2>
+      <p class="home__description">Welcome to my world :)</p>
+      <a class="home__contact" href="#contact">Contact Me</a>
     </section>
 
     <!-- About -->
-    <section id="about">
-      <h2>About me</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore in, veritatis eveniet nam sapiente incidunt debitis cupiditate necessitatibus! Necessitatibus hic quia consequuntur tempore, fuga reprehenderit dolores! Animi laboriosam repellat architecto.</p>
+    <section id="about" class="section">
+      <h2 class="title">About me</h2>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore in, veritatis eveniet nam sapiente incidunt debitis cupiditate necessitatibus! Necessitatibus hic quia consequuntur tempore, fuga reprehenderit dolores! Animi laboriosam repellat architecto.</p>
       <ul>
         <li>
           <i class="fa-brands fa-html5"></i>
@@ -93,9 +93,9 @@
     </section>
 
     <!-- Skills -->
-    <section id="skills">
-      <h2>My Skills</h2>
-      <p>Skills & Attributes</p>
+    <section id="skills" class="section">
+      <h2 class="title">My Skills</h2>
+      <p class="description">Skills & Attributes</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt assumenda reiciendis ipsa saepe, esse, officiis maiores pariatur aspernatur fuga temporibus cumque eum voluptates velit totam recusandae illum, magni animi non?</p>
       <div>
         <section>
@@ -203,9 +203,9 @@
     </section>
 
     <!-- Work -->
-    <section id="work">
-      <h2>My work</h2>
-      <p>Projects</p>
+    <section id="work" class="section">
+      <h2 class="title">My work</h2>
+      <p class="description">Projects</p>
       <ul>
         <li>
           <button>All <span>8</span></button>
@@ -297,9 +297,9 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonial">
-      <h2>Testimonial</h2>
-      <p>See what they say about me</p>
+    <section id="testimonial" class="section">
+      <h2 class="title">Testimonial</h2>
+      <p class="description">See what they say about me</p>
       <ul>
         <li>
           <img src="images/jobs/argoon.png" alt="people1">
@@ -334,9 +334,9 @@
   </main>
 
   <!-- Footer -->
-  <footer id="contact">
-    <h2>Let&#39;s talk</h2>
-    <p>santa4246@gmail.com</p>
+  <footer id="contact" class="section">
+    <h2 class="title">Let&#39;s talk</h2>
+    <p class="description">santa4246@gmail.com</p>
     <ul>
       <li>
         <a href="https://github.com/santa4246" target="_blank" title="my github link">
