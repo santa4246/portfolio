@@ -54,39 +54,39 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section max-container">
       <h2 class="title">About me</h2>
       <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore in, veritatis eveniet nam sapiente incidunt debitis cupiditate necessitatibus! Necessitatibus hic quia consequuntur tempore, fuga reprehenderit dolores! Animi laboriosam repellat architecto.</p>
-      <ul>
-        <li>
-          <i class="fa-brands fa-html5"></i>
-          <p>Front-end</p>
+      <ul class="majors">
+        <li class="major">
+          <i class="fa-brands fa-html5 major__icon"></i>
+          <p class="major__title">Front-end</p>
           <p>HTML, CSS, JavaScript, React, Web APIs</p>
         </li>
-        <li>
-          <i class="fa-solid fa-mobile"></i>
-          <p>Mobile</p>
+        <li class="major">
+          <i class="fa-solid fa-mobile major__icon"></i>
+          <p class="major__title">Mobile</p>
           <p>Android, IOS, React Native</p>
         </li>
-        <li>
-          <i class="fa-solid fa-server"></i>
-          <p>Back-end</p>
+        <li class="major">
+          <i class="fa-solid fa-server major__icon"></i>
+          <p class="major__title">Back-end</p>
           <p>Python, JavaScript, Go, MySQL</p>
         </li>
       </ul>
-      <ul>
-        <li>
+      <ul class="jobs">
+        <li class="job">
           <img src="images/jobs/webzen.png" alt="webzen logo">
           <div>
-            <p>Webzen as Back-end Engineer</p>
-            <p>2021 Oct - Until now</p>
+            <p class="job__name">Webzen as Back-end Engineer</p>
+            <p class="job__period">2021 Oct - Until now</p>
           </div>
         </li>
-        <li>
+        <li class="job">
           <img src="images/jobs/argoon.png" alt="argoon logo">
           <div>
-            <p>Argoon as Front-end Engineer</p>
-            <p>2020 Sept - 2021 Oct</p>
+            <p class="job__name">Argoon as Front-end Engineer</p>
+            <p class="job__period">2020 Sept - 2021 Oct</p>
           </div>
         </li>
       </ul>
@@ -94,111 +94,99 @@
 
     <!-- Skills -->
     <section id="skills" class="section">
-      <h2 class="title">My Skills</h2>
-      <p class="description">Skills & Attributes</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt assumenda reiciendis ipsa saepe, esse, officiis maiores pariatur aspernatur fuga temporibus cumque eum voluptates velit totam recusandae illum, magni animi non?</p>
-      <div>
-        <section>
-          <h3>Coding Skills</h3>
-          <ul>
-            <li>
-              <div>
-                <span>HTML</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+      <div class="max-container">
+        <h2 class="title">My Skills</h2>
+        <p class="description">Skills & Attributes</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt assumenda reiciendis ipsa saepe, esse, officiis maiores pariatur aspernatur fuga temporibus cumque eum voluptates velit totam recusandae illum, magni animi non?</p>
+        <div class="skills">
+          <section class="skills__coding">
+            <h3 class="skills__title">Coding Skills</h3>
+            <ul>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>HTML</span>
+                  <span>98%</span>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>HTML</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>CSS</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>HTML</span>
+                  <span>98%</span>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>JavaScript</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>Python</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>CSS</span>
+                  <span>98%</span>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>React</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
                 </div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span>NodeJs</span>
-                <span>98%</span>
-              </div>
-              <div>
-                <div style="width:98%">
-
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>JavaScript</span>
+                  <span>98%</span>
                 </div>
-              </div>
-            </li>
-          </ul>
-          <div></div>
-        </section>
-        <section>
-          <h3>Tools</h3>
-          <ul>
-            <li>Visual Studio Code</li>
-            <li>IntelliJ</li>
-            <li>Android Studio Code</li>
-            <li>iOS development tools</li>
-            <li>Sketch</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Etc</h3>
-          <ul>
-            <li>Git</li>
-            <li>Scrum Master</li>
-            <li>Math</li>
-          </ul>
-        </section>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>Python</span>
+                  <span>98%</span>
+                </div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>React</span>
+                  <span>98%</span>
+                </div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata">
+                  <span>NodeJs</span>
+                  <span>98%</span>
+                </div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width:98%"></div>
+                </div>
+              </li>
+            </ul>
+            <div></div>
+          </section>
+          <section class="skills__tools">
+            <h3 class="skills__title">Tools</h3>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>IntelliJ</li>
+              <li>Android Studio Code</li>
+              <li>iOS development tools</li>
+              <li>Sketch</li>
+            </ul>
+          </section>
+          <section class="skills__etc">
+            <h3 class="skills__title">Etc</h3>
+            <ul>
+              <li>Git</li>
+              <li>Scrum Master</li>
+              <li>Math</li>
+            </ul>
+          </section>
+        </div>
       </div>
     </section>
 
