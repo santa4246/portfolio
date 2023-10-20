@@ -247,12 +247,12 @@ button:focus{
 
 .skills__tools{
   padding: 1rem;
-  background-color: var(--color-primary);
-  filter: brightness(150%);
 }
 
 .skills__etc{
   padding: 1rem;
+  background-color: var(--color-primary);
+  filter: brightness(150%);
 }
 
 .bar{
