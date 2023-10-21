@@ -22,7 +22,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Javascript -->
-  <script src="src/main.js" defer></script>
+  <script type="module" src="src/main.js" defer></script>
+  <script type="module" src="src/projects.js" defer></script>
 </head>
 <body>
   <!-- Header -->
@@ -41,16 +42,21 @@
         <li><a class="header__menu__item" href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <button class="header__toggle" aria-label="navigation menu toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
   </header>
 
   <!-- Main -->
   <main>
     <!-- Home -->
     <section id="home">
-      <img class="home__avatar" src="images/profile.png" alt="MH's profile">
-      <h2 class="home__title">고요히 빛나는,<br />저는 <strong class="home__title--strong">백엔드 개발자</strong> 강민혁입니다.</h2>
-      <p class="home__description">Welcome to my world :)</p>
-      <a class="home__contact" href="#contact">Contact Me</a>
+      <div class="home__container">
+        <img class="home__avatar" src="images/profile.png" alt="MH's profile">
+        <h2 class="home__title">Hello<br />I&#39;m <strong class="home__title--strong">Backend Engineer, </strong>MinHyeok</h2>
+        <p class="home__description">Street Coder, Backend, DevOps Engineer</p>
+        <a class="home__contact" href="#contact">Contact Me</a>
+      </div>
     </section>
 
     <!-- About -->
