@@ -22,6 +22,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -348,6 +352,12 @@ button:focus{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1;
+  transition: all 250ms  ease-out;
+}
+
+.projects.anim-out{
+  opacity: 0;
+  transform: scale(0.96) translateY(20px);
 }
 
 .project{

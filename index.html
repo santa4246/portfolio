@@ -24,6 +24,7 @@
   <!-- Javascript -->
   <script type="module" src="src/main.js" defer></script>
   <script type="module" src="src/projects.js" defer></script>
+  <script type="module" src="src/active_menu.js" defer></script>
 </head>
 <body>
   <!-- Header -->
@@ -203,20 +204,20 @@
         <p class="description">Projects</p>
         <ul class="categories">
           <li>
-            <button class="category category--selected">All <span class="category__count">8</span></button>
+            <button class="category category--selected" data-category="all">All <span class="category__count">8</span></button>
           </li>
           <li>
-            <button class="category">Front-end <span class="category__count">3</span></button>
+            <button class="category" data-category="front-end">Front-end <span class="category__count">4</span></button>
           </li>
           <li>
-            <button class="category">Back-end <span class="category__count">3</span></button>
+            <button class="category" data-category="back-end">Back-end <span class="category__count">3</span></button>
           </li>
           <li>
-            <button class="category">Mobile-end <span class="category__count">3</span></button>
+            <button class="category" data-category="mobile-end">Mobile <span class="category__count">1</span></button>
           </li>
         </ul>
         <ul class="projects">
-          <li class="project">
+          <li class="project" data-type="front-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project1" class="project__img">
               <div class="project__metadata">
@@ -225,7 +226,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="front-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project2" class="project__img">
               <div class="project__metadata">
@@ -234,7 +235,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="front-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project3" class="project__img">
               <div class="project__metadata">
@@ -243,7 +244,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="front-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project4" class="project__img">
               <div class="project__metadata">
@@ -252,7 +253,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="back-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project5" class="project__img">
               <div class="project__metadata">
@@ -261,7 +262,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="back-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project6" class="project__img">
               <div class="project__metadata">
@@ -270,7 +271,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="back-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project7" class="project__img">
               <div class="project__metadata">
@@ -279,7 +280,7 @@
               </div>
             </a>
           </li>
-          <li class="project">
+          <li class="project" data-type="mobile-end">
             <a href="#" target="_blank">
               <img src="images/jobs/argoon.png" alt="project8" class="project__img">
               <div class="project__metadata">
