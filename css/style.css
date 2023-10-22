@@ -351,7 +351,7 @@ button:focus{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1;
+  gap: 1rem;
   transition: all 250ms  ease-out;
 }
 
@@ -368,11 +368,12 @@ button:focus{
 
 .project__img{
   width: 100%;
+  height: 80%;
 }
 
 .project__metadata{
   position: absolute;
-  top: 0;
+  top: -22px;
   left: 0;
   width: 100%;
   height: 100%;
